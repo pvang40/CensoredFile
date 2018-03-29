@@ -24,7 +24,7 @@ int main()
       lettersInFile.push_back(letter);
     }
   } 
-  last = lettersInFile.size() - 1;
+  last = lettersInFile[lettersInFile.size() - 1];
   first = lettersInFile[0]; 
 
   //Then, finally, this displays the censored version:
